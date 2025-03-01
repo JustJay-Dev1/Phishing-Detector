@@ -9,8 +9,8 @@ app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})  # Allow all origins
 
 # Load ML model and vectorizer
-model = joblib.load("ML models/phishing_detection_model.pkl")
-vectorizer = joblib.load("ML models/tfidf_vectorizer.pkl")
+model = joblib.load("phishing_detection_model.pkl")
+vectorizer = joblib.load("tfidf_vectorizer.pkl")
 
 # VirusTotal API key
 VT_API_KEY = "Your VirusTotal API Key"  # Replace with your actual API key
