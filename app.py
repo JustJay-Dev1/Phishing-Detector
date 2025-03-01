@@ -13,7 +13,7 @@ model = joblib.load("ML models/phishing_detection_model.pkl")
 vectorizer = joblib.load("ML models/tfidf_vectorizer.pkl")
 
 # VirusTotal API key
-VT_API_KEY = "bcbf5b3529022dc57962c17f448e38ec58aeb27efff4450525ba8c79dfa489ae"  # Replace with your actual API key
+VT_API_KEY = "Your VirusTotal API Key"  # Replace with your actual API key
 
 # Function to clean email text
 def clean_text(text):
