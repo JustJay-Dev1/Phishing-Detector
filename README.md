@@ -28,23 +28,3 @@ The extension requires a Flask server for machine learning analysis.
    ```bash
    pip install -r requirements.txt
 
-Phishing-Detector/
-│
-├── ML models/
-│   ├── phishing_detection_model.pkl  # Serialized ML model
-│   └── tfidf_vectorizer.pkl          # Serialized TF-IDF vectorizer
-│
-├── icons/
-│   ├── icon16.png
-│   ├── icon48.png
-│   └── icon128.png
-│
-├── background.js       # Background script for managing events
-├── content.js          # Content script to extract email data
-├── popup.html          # HTML for extension popup
-├── popup.js            # JS for extension popup functionality
-├── style.css           # CSS for extension popup
-├── app.py              # Flask backend for ML analysis
-├── manifest.json       # Chrome extension manifest file
-├── README.md           # Documentation
-└── requirements.txt    # Python dependencies
