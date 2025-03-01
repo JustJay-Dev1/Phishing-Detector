@@ -14,7 +14,7 @@ This Chrome extension helps detect phishing attempts in emails using a combinati
 
 ## Installation
 ### 1. Chrome Extension
-1. Clone or download this repository to your local machine.
+1. Clone or download this repository to your local machine. "git clone https://github.com/JustJay-Dev1/Phishing-Detector.git"
 2. Open Chrome and navigate to `chrome://extensions`.
 3. Enable **Developer Mode** in the top-right corner.
 4. Click on **Load unpacked** and select the folder containing the extension files.
